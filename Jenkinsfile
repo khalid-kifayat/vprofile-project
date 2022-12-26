@@ -3,7 +3,8 @@ def COLOR_MAP = [
     'SUCCESS' : 'good'
 ]
 
-pipeline {
+pipeline 
+{
 
     agent any
 
@@ -30,11 +31,6 @@ pipeline {
             steps {
                 sh 'mvn -s settings.xml -DskipTests install'
             }
-            post {
-                success {
-                    echo "Now Archiving."
-                    archiveArtifacts artifacts: '**/*.war'
-                }
-            }
         }
-    }
+     }
+ }
