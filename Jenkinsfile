@@ -22,8 +22,7 @@ pipeline {
         NEXUS_IP = '192.168.33.20'
         NEXUS_PORT = '8081'
         NEXUS_LOGIN = "nexuslogin"
- //       SONARSERVER = 'sonarserver'
-  //     SONARSCANNER = 'sonarscanner'
+
     }
 
     stages {
@@ -38,3 +37,4 @@ pipeline {
                 }
             }
         }
+    }
