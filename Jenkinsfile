@@ -15,7 +15,7 @@ pipeline
 
      environment {
         NEXUS_USER = 'admin'
-        NEXUS_PASSWORD = 'admin'
+        NEXUS_PASSWORD = 'asdf'
         SNAP_REPO = 'vprofile-snapshot'
         RELEASE_REPO = 'vprofile-release'
         CENTRAL_REPO = 'vprofile-central-repo'
